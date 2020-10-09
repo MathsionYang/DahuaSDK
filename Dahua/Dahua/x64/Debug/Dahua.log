@@ -1,0 +1,43 @@
+﻿  main.cpp
+e:\dahua\dahua\dahua\inlcude\opencv2\core\mat.hpp(1964): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\dahua\dahua\dahua\inlcude\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\dahua\dahua\dahua\inlcude\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\dahua\dahua\dahua\inlcude\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\dahua\dahua\dahua\main.cpp(48): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\dahua\dahua\dahua\main.cpp(49): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  MP4Encoder.cpp
+  temp.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_Init，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_Cleanup，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_GetLastError，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_LoginEx2，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_Logout，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_RealPlayEx，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_SetRealDataCallBackEx2，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_CLIENT_StopRealPlayEx，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)，该符号在函数 "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "private: char * __cdecl cv::String::allocate(unsigned __int64)" (?allocate@String@cv@@AEAAPEAD_K@Z)，该符号在函数 "public: __cdecl cv::String::String(char const *)" (??0String@cv@@QEAA@PEBD@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl cv::String::deallocate(void)" (?deallocate@String@cv@@AEAAXXZ)，该符号在函数 "public: __cdecl cv::String::~String(void)" (??1String@cv@@QEAA@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHAEBVString@1@PEBD1H@Z)，该符号在函数 "public: __cdecl cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QEAA@$$QEAV01@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)，该符号在函数 "public: class cv::Mat __cdecl cv::Mat::clone(void)const " (?clone@Mat@cv@@QEBA?AV12@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)，该符号在函数 "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvCreateImageHeader，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvCreateImage，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvReleaseImageHeader，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvReleaseImage，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvSetData，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvMerge，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvCvtColor，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvResize，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvShowImage，该符号在函数 "struct _IplImage * __cdecl YUV420_To_IplImage_Opencv(char *,int,int)" (?YUV420_To_IplImage_Opencv@@YAPEAU_IplImage@@PEADHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 cvWaitKey，该符号在函数 "void __cdecl RealDataCallBackEx2(__int64,unsigned long,unsigned char *,unsigned long,struct _tagVideoFrameParam,__int64)" (?RealDataCallBackEx2@@YAX_JKPEAEKU_tagVideoFrameParam@@0@Z) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4Close，该符号在函数 "public: void __cdecl MP4Encoder::getMP4FileClose(void)" (?getMP4FileClose@MP4Encoder@@QEAAXXZ) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4Create，该符号在函数 "private: void * __cdecl MP4Encoder::CreateMP4File(void)" (?CreateMP4File@MP4Encoder@@AEAAPEAXXZ) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4SetTimeScale，该符号在函数 "private: void * __cdecl MP4Encoder::CreateMP4File(void)" (?CreateMP4File@MP4Encoder@@AEAAPEAXXZ) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4SetVideoProfileLevel，该符号在函数 "private: int __cdecl MP4Encoder::WriteH264Data(void *,unsigned char const *,int,int)" (?WriteH264Data@MP4Encoder@@AEAAHPEAXPEBEHH@Z) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4AddH264VideoTrack，该符号在函数 "private: int __cdecl MP4Encoder::WriteH264Data(void *,unsigned char const *,int,int)" (?WriteH264Data@MP4Encoder@@AEAAHPEAXPEBEHH@Z) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4AddH264SequenceParameterSet，该符号在函数 "private: int __cdecl MP4Encoder::WriteH264Data(void *,unsigned char const *,int,int)" (?WriteH264Data@MP4Encoder@@AEAAHPEAXPEBEHH@Z) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4AddH264PictureParameterSet，该符号在函数 "private: int __cdecl MP4Encoder::WriteH264Data(void *,unsigned char const *,int,int)" (?WriteH264Data@MP4Encoder@@AEAAHPEAXPEBEHH@Z) 中被引用
+MP4Encoder.obj : error LNK2019: 无法解析的外部符号 __imp_MP4WriteSample，该符号在函数 "private: int __cdecl MP4Encoder::WriteH264Data(void *,unsigned char const *,int,int)" (?WriteH264Data@MP4Encoder@@AEAAHPEAXPEBEHH@Z) 中被引用
+E:\Dahua\Dahua\x64\Debug\Dahua.exe : fatal error LNK1120: 32 个无法解析的外部命令
